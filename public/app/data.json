@@ -70,5 +70,82 @@
 "flowId":"321-654",
 "status":"Error",
 "style" : "slb-progress-indicator warning"
+},
+{
+"mid":"1008",
+"mname":"Test flow-8",
+"toq":40,
+"taq":100,
+"tsq":"20-12-2016",
+"uom":"user8",
+"flowId":"987-789",
+"status":"In progress",
+"style" : "slb-progress-indicator positive"
+},
+{
+"mid":"1009",
+"mname":"Test flow-9",
+"toq":40,
+"taq":100,
+"tsq":"20-12-2016",
+"uom":"user9",
+"flowId":"789-789",
+"status":"Error",
+"style" : "slb-progress-indicator warning"
+},
+{
+"mid":"1010",
+"mname":"Test flow-10",
+"toq":40,
+"taq":100,
+"tsq":"20-12-2016",
+"uom":"user10",
+"flowId":"123-789",
+"status":"In progress",
+"style" : "slb-progress-indicator positive"
+},
+{
+"mid":"1011",
+"mname":"Test flow-11",
+"toq":40,
+"taq":100,
+"tsq":"20-12-2016",
+"uom":"user11",
+"flowId":"658-789",
+"status":"Error",
+"style" : "slb-progress-indicator warning"
+},
+{
+"mid":"1012",
+"mname":"Test flow-12",
+"toq":40,
+"taq":100,
+"tsq":"20-12-2016",
+"uom":"user12",
+"flowId":"456-252",
+"status":"In progress",
+"style" : "slb-progress-indicator positive"
+},
+{
+"mid":"1013",
+"mname":"Test flow-13",
+"toq":40,
+"taq":100,
+"tsq":"20-12-2016",
+"uom":"user13",
+"flowId":"456-352",
+"status":"Error",
+"style" : "slb-progress-indicator warning"
+},
+{
+"mid":"1014",
+"mname":"Test flow-14",
+"toq":40,
+"taq":100,
+"tsq":"20-12-2016",
+"uom":"user14",
+"flowId":"456-452",
+"status":"Not started",
+"style" : "slb-progress-indicator positive"
 }
 ]

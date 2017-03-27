@@ -6,6 +6,7 @@ import { DashboardComponent} from './modules/dashboard/dashboard.component';
 import { FlowDesignerComponent} from './modules/flowDesign/flowDesigner.component';
 import { SeismicDriveComponent } from './modules/seismicDrive/seismicDrive.component';
 import { JobListComponent } from './modules/jobList/jobList.component';
+import { JobModuleComponent } from './modules/jobModuleList/jobModule.component';
 import { ViewerComponent } from './modules/viewer/viewer.component';
 import {JobDetailsComponent} from './modules/dataView/jobDetails.component';
 
@@ -16,7 +17,7 @@ const routes: Routes = [
     {path:'dashboard',component:DashboardComponent },
     {path:'seismicdrive', component: SeismicDriveComponent},
    {path:'flowdesigner', component: FlowDesignerComponent},
-   {path:'joblist', component: JobListComponent},
+   {path:'joblist', component: JobModuleComponent},
    {path:'viewer', component: ViewerComponent},
    {path:'jobdetails', component: JobDetailsComponent}
 ];
@@ -35,4 +36,4 @@ const routes: Routes = [
 export class AppRoutingModule{}
 
 //export const routingComponents=[DepartmentListComponent, EmployeeListComponent]
-export const routingComponents=[DashboardComponent, FlowDesignerComponent,SeismicDriveComponent,JobListComponent,ViewerComponent, JobDetailsComponent]
+export const routingComponents=[DashboardComponent, FlowDesignerComponent,SeismicDriveComponent,JobListComponent,ViewerComponent, JobDetailsComponent, JobModuleComponent]

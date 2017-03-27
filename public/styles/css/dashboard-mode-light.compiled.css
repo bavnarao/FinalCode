@@ -533,7 +533,7 @@ div.slb-toggle-switch--color-mode .toggle-switch-track :last-child.slb-icon {
 	margin-left: 10px; cursor: pointer;
 }
 .navigation-framework .framework-side-nav {
-	padding: 40px 20px; width: 180px; display: flex; flex-direction: column; flex-shrink: 0; justify-content: space-between; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-pack: justify;
+	padding: 40px 20px;height: 150vh;width: 180px; display: flex; flex-direction: column; flex-shrink: 0; justify-content: space-between; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-pack: justify;
 }
 .navigation-framework .powered-by {
 	margin: 40px 0px 0px; text-align: center; color: rgb(153, 166, 181); font-size: 0.9rem; font-weight: 500;

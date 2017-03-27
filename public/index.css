@@ -606,9 +606,7 @@ div.slb-toggle-switch--color-mode .toggle-switch-track :first-child.slb-icon {
 div.slb-toggle-switch--color-mode .toggle-switch-track :last-child.slb-icon {
 	right: 0px;
 }
-.navigation-framework {
-	background: rgb(57, 65, 77); height: 100vh; display: flex; flex-direction: column; -webkit-box-orient: vertical; -webkit-box-direction: normal;
-}
+
 .navigation-framework .framework-sub-nav {
 	padding: 0px 40px; height: 50px; color: rgb(153, 166, 181); display: flex; flex-shrink: 0; justify-content: flex-end; align-items: center; -webkit-box-align: center; -webkit-box-pack: end;
 }
