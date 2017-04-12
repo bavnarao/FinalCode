@@ -533,7 +533,7 @@ div.slb-toggle-switch--color-mode .toggle-switch-track :last-child.slb-icon {
 	margin-left: 10px; cursor: pointer;
 }
 .navigation-framework .framework-side-nav {
-	padding: 40px 20px;height: 150vh;width: 180px; display: flex; flex-direction: column; flex-shrink: 0; justify-content: space-between; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-pack: justify;
+	padding: 40px 20px; width: 180px; display: flex; flex-direction: column; flex-shrink: 0; justify-content: space-between; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-pack: justify;
 }
 .navigation-framework .powered-by {
 	margin: 40px 0px 0px; text-align: center; color: rgb(153, 166, 181); font-size: 0.9rem; font-weight: 500;
@@ -560,16 +560,16 @@ div.slb-toggle-switch--color-mode .toggle-switch-track :last-child.slb-icon {
 	border-width: 5px; border-style: solid; border-color: transparent currentColor transparent transparent; border-image: none; left: 0px; top: 50%; width: 0px; height: 0px; margin-top: -5px; position: absolute; content: ""; pointer-events: none;
 }
 .navigation-framework a.framework-nav-item {
-	margin: 0px; color: rgb(153, 166, 181); text-transform: uppercase; padding-bottom: 45px; display: flex; flex-direction: column; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-align: center;
+	padding-top: 10px; margin-bottom: 20px; color: rgb(255, 255, 255); text-transform: uppercase; padding-bottom: 21px; display: flex; flex-direction: column; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-align: center;
 }
 .navigation-framework a.framework-nav-item span {
-	padding-top: 10px; font-size: 1.2rem; font-weight: 500; display: inline-block;
+	padding-top: 10px; font-size: 1.7vh; font-weight: 500; display: inline-block;
 }
 .navigation-framework a.framework-nav-item:hover {
-	color: rgb(255, 255, 255);
+	border: 2px solid blue;cursor: pointer;
 }
 .navigation-framework a.selected.framework-nav-item {
-	color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255); border: 2px solid black;
 }
 .navigation-framework .heading-container {
 	height: 90px; border-bottom-color: rgb(199, 208, 216); border-bottom-width: 1px; border-bottom-style: solid; border-top-left-radius: 5px; flex-shrink: 0; background-color: rgb(255, 255, 255);

@@ -1,9 +1,84 @@
 <DIV class="navigation-framework" style="overflow-x: auto;">
   <topnav></topnav>
  <DIV class="framework-content">
-  <sidebar></sidebar>
+  <!--<sidebar></sidebar>-->
  <DIV class="framework-content">
- <mainnav style="width:100%;"></mainnav>
+   <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" style="min-height: 612px;">
+            
+            <A routerLink="/home" class="framework-nav-item" (click) = "hide();" style="text-decoration: underline;max-width: 85px;padding-top: 27px;color: black;
+            text-transform: uppercase; padding-left: 22px; align-items: flex-start; margin-bottom: 0px; display:flex; flex-direction: column; font-size: 14px; font-weight: bold">Home</A>
+            <div class="row" style="margin-left: -8px;">
+  <div class="col-md-6" style="width:49%">
+    <div class="thumbnail" (click) = "hide();" style="background-color:transparent;display: block;">
+      <A class="framework-nav-item" routerLink="/dashboard" routerLinkActive="selected" style="background-color: #4f5b6f;">
+        <DIV class="slb-icon">
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-dashboard"></use>
+          </svg>
+        </DIV><br/>
+        <SPAN>Dashboard</SPAN> </A>
+    </div>
+  </div>
+
+
+  <div class="col-md-6" style="width:49% ;">
+    <div class="thumbnail" (click) = "hide();" style="background-color: transparent;display: block;">
+      <A class="framework-nav-item" routerLink="/seismicdrive" routerLinkActive="selected" style="background-color: #4f5b6f;">
+        <DIV class="slb-icon">
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-data" /> </svg>
+        </DIV><br/>
+        <SPAN>Seismic Drive</SPAN> </A>
+
+    </div>
+  </div>
+</div>
+
+<div class="row" style="margin-left: -8px;">
+  <div class="col-md-6" (click) = "hide();" style="width:49%;">
+    <div class="thumbnail" style="background-color: transparent;display: block;">
+      <A class="framework-nav-item " routerLink="/flowdesigner" routerLinkActive="selected" style="background-color: #4f5b6f;">
+        <DIV class="slb-icon">
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-well" /> </svg>
+        </DIV><br/>
+        <SPAN>Flow Designer</SPAN> </A>
+
+    </div>
+  </div>
+  <div class="col-md-6" (click) = "hide();" style="width:49%; ">
+    <div class="thumbnail" style="background-color: transparent;display: block;">
+      <A class="framework-nav-item " routerLink="/joblist" routerLinkActive="selected" style="background-color: #4f5b6f;">
+        <DIV class="slb-icon">
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-data" /> </svg>
+        </DIV><br/>
+        <SPAN>Job List</SPAN> </A>
+
+    </div>
+  </div>
+</div>
+<div class="row" style="margin-left: -8px;">
+   <div class="col-md-6" (click) = "hide();" style="width:49%">
+  <div class="thumbnail" style="background-color: transparent;display: block;">
+    <A class="framework-nav-item " routerLink="/viewer" routerLinkActive="selected" style="background-color: #4f5b6f;">
+      <DIV class="slb-icon">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-data" /> </svg>
+      </DIV><br/>
+      <SPAN>Viewer</SPAN> </A>
+  </div>
+  </div>
+</div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <div id='overlay'></div>
+        
+    </div>
+ <mainnav style="width:100%;background-color: #dcdaec;"></mainnav>
  </DIV>
  </DIV>
  </DIV>
